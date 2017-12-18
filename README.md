@@ -18,7 +18,7 @@ Before each patient appointment they want the patient to fill in a questionnaire
 
 * The user should be presented with a questionnaire, the questions are given to you by the Medical team (See end of this text document).
 
-* The questions should be presented one at the time, , a new question is presented after a question has been answered.
+* The questions should be presented one at the time, a new question is presented after a question has been answered.
 
 * When the last question is answered a thank you page is shown.
 
