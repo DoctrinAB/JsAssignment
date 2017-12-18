@@ -1,5 +1,7 @@
 # Anamnes - [Medical history](https://en.wikipedia.org/wiki/Medical_history)
 
+First and foremost, thank you for taking your time to be part of our dream, to impact 1 000 000 000 (One billion) people. Everything we do is focused on this goal and to reach it we need people like __you__!
+
 The medical team at [doctrin](http://doctrin.se/en/) are always looking for new ways to improve healthcare. Through years of practicing medicine they have become experts of listening and talking to patients. In this process they also learnt to ask the right questions about a patients condition and medical history.
 
 The medical team hires __you__ as they heard that __you__ are a motivated and excellent problemsolver, they need you to build functioning prototype of their system.
