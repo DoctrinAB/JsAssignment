@@ -1,27 +1,67 @@
-# Anamnes - Medical history
+# Anamnes - [Medical history](https://en.wikipedia.org/wiki/Medical_history)
 
-Linda and Markus are medical doctors, they have had an ideé for a long time but they havent had the time or the competence to make it happen. They belive that the questions they ask in the begining of a patient visit could be asked by a computer program and they can use the output of the program as a way to make the visit more medically secure.
+The medical team at [doctrin](http://doctrin.se/en/) are always looking for new ways to improve healthcare. Through years of practicing medicine they have become experts of listening and talking to patients. In this process they also learnt to ask the right questions about a patients condition and medical history.
 
-Linda and Markus hires you as they heard that you are one of the best problemsolvers in the biz.
+The medical team hires __you__ as they heard that __you__ are a motivated and excellent problemsolver, they need you to build functioning prototype of their system.
+
 
 ## Requirements
 
-### Task:
-·       Create a landing page where the user inputs their social-security (Swedish) number. And press ok.
-·       The user should be presented with a question, the questions are given to you by the Medical team (link)
-·       The questions should be presented one at the time, the next question will be presented after the previous question have been answered.
-.       The questions are of different types (Yes/NO), freetext, scale
-·       Frågorna ska innehålla Ja/Nej, Radiobuttons, Fritext och skala (smärta 1-10). Olika typer på olika frågor
-·       Gör 10 frågor som sparas i DB med förutbestämd ordning grenas till 2 träd efter andra frågan (5 i ett träd 5 i ett annat). Ta med frågorna i beskrivningen så inte kodaren behöver hitta på dem
-·       Skapa en enpoint där man kan hämta ut en rapport (JSON) för viss patient (SSN). Denna rapport ska alltid kunna hämtas, inte bara för fullständigt svarade rapporten
- 
+Before each patient appointment they want the patient to fill in a questionnaire. The questionnaire will help the doctors before and during the appointment to give the best possible treatment.
+
+
+### Functional requirements
+
+* Create a landing page where the user inputs their social-security (Swedish) number. And press ok.
+
+* The user should be presented with a question, the questions are given to you by the Medical team (See end of this text document).
+
+* The questions should be presented one at the time, the next question will be presented after the previous question have been answered.
+
+* The questions have different inpyt types (Checkboxes, Radiobuttons, freetext etc)
+
+* The questions and answers should be saved in a DB.
+
+* Create an endpoint where you can fetch a report in JSON format by passing in the patients SSN. The report should be queryable even if the patient haven't finnished the questions.
 
 ### Technical requirements
-·       HTML/JS/CSS
-·       CSS och styling enligt exempel (logga, shadow, responsiv design för mobil)
-·       React/Redux
-·       NodeJS
-·       MongoDB
+*  HTML/JS/CSS
+*  CSS and styling
+*  React/Redux or other JS framework
+*  Node.js
+*  MongoDB or other DB of choice
 
+### Setup requirements
 
+* npm install
+* npm run start (tests if any ;) , lint, and server)
 
+### Questions for fever
+ 
+1.	What was the last measured temperature.
+	1.	35 to 42 degrees.
+	1.	Don't know.
+
+2. How long have you had a fever?
+	1. 0 to 14 days
+
+3.	Do you have any of the following. 
+
+	1. Problem breathing
+	2. Stiff neck
+	3. Chest pain
+	4. abdominal pain
+
+4. Do you have any of the following?
+	1. Soar throat
+	2. Cough
+	3. Muscle pain
+	4. Vomiting
+	5. cough
+
+5. Have you recently traveled abroad?
+	1. Yes
+	2. No
+
+6. Shown if answered yes to question 5.
+	1. Where did you travel
