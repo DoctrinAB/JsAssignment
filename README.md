@@ -18,6 +18,8 @@ Before each patient appointment they want the patient to fill in a questionnaire
 
 * The questions should be presented one at the time, the next question will be presented after the previous question have been answered.
 
+* When the last question is answered a thank you page is shown.
+
 * The questions have different inpyt types (Checkboxes, Radiobuttons, freetext etc)
 
 * The questions and answers should be saved in a DB.
@@ -38,30 +40,33 @@ Before each patient appointment they want the patient to fill in a questionnaire
 
 ### Questions for fever
  
-1.	What was the last measured temperature.
+1.	What was the last measured temperature. (dropdown)
 	1.	35 to 42 degrees.
 	1.	Don't know.
 
-2. How long have you had a fever?
+2. How long have you had a fever? (dropdown)
 	1. 0 to 14 days
 
-3.	Do you have any of the following. 
+3. Do you have any of the following. (radiobuttons, must activly select no)
 
 	1. Problem breathing
 	2. Stiff neck
 	3. Chest pain
 	4. abdominal pain
 
-4. Do you have any of the following?
+4. Do you have any of the following? (checkboxes)
+
 	1. Soar throat
 	2. Cough
 	3. Muscle pain
 	4. Vomiting
 	5. cough
 
-5. Have you recently traveled abroad?
+5. Have you recently traveled abroad? (radiobuttons)
 	1. Yes
 	2. No
 
 6. Shown if answered yes to question 5.
-	1. Where did you travel
+	1. Where did you travel (freetext)
+
+7. END - Thank you
