@@ -7,7 +7,7 @@ The medical team hires __you__ as they heard that __you__ are a motivated and ex
 
 ## Requirements
 
-Before each patient appointment they want the patient to fill in a questionnaire. The questionnaire will help the doctors before and during the appointment to give the best possible treatment.
+Before each patient appointment they want the patient to fill in a questionnaire. The questionnaire will help the doctors before and during the appointment to give the best possible treatment. The questionnaire should be built using web-technologies and be functioning on standard mobile devices.
 
 
 ### Functional requirements
