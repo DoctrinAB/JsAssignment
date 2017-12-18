@@ -14,19 +14,19 @@ Before each patient appointment they want the patient to fill in a questionnaire
 
 ### Functional requirements
 
-* Create a landing page where the user inputs their social-security (Swedish) number. And press ok.
+* Create a landing page where the user inputs their (Swedish) social-security number and presses a button to confirm.
 
-* The user should be presented with a question, the questions are given to you by the Medical team (See end of this text document).
+* The user should be presented with a questionnaire, the questions are given to you by the Medical team (See end of this text document).
 
-* The questions should be presented one at the time, the next question will be presented after the previous question have been answered.
+* The questions should be presented one at the time, , a new question is presented after a question has been answered.
 
 * When the last question is answered a thank you page is shown.
 
-* The questions have different inpyt types (Checkboxes, Radiobuttons, freetext etc)
+* The questions have different inpyt types (checkboxes, radio buttons, freetext etc)
 
-* The questions and answers should be saved in a DB.
+* The questions and answers should be persisted in a database.
 
-* Create an endpoint where you can fetch a report in JSON format by passing in the patients SSN. The report should be queryable even if the patient haven't finnished the questions.
+* Create an endpoint where you can fetch a report in JSON format by passing in the patients SSN. The report should be queryable even if the patient hasn't answered all questions.
 
 ### Technical requirements
 *  HTML/JS/CSS
