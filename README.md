@@ -62,7 +62,6 @@ Before each patient appointment they want the patient to fill in a questionnaire
 	2. Cough
 	3. Muscle pain
 	4. Vomiting
-	5. cough
 
 5. Have you recently traveled abroad? (radiobuttons)
 	1. Yes
